@@ -1,4 +1,5 @@
 import discord
+from keep_alive import keep_alive
 
 client = discord.Client()
 
@@ -23,4 +24,5 @@ async def on_message(message):
       print(message.author.id) 
       print('Responded to their price query')
       
+keep_alive()
 client.run('ODM5NzE3MTMxNDI3MjUwMTk2.YJNthQ.0UeYamqVWk7ZRfg1W8W53Uqdm2E')
