@@ -74,6 +74,12 @@ async def on_message(message):
       print(message.author.name)
       print(message.author.id)
       print('Responded to their help query')
+    
+    if message.content.startswith('$status'):
+      await message.channel.send('https://Doge-Bot.bosszombie12345.repl.co')
+      print(message.author.name)
+      print(message.author.id)
+      print('Responded to the status query')
 
 keep_alive()
 client.run('ODM5NzE3MTMxNDI3MjUwMTk2.YJNthQ.0UeYamqVWk7ZRfg1W8W53Uqdm2E')
