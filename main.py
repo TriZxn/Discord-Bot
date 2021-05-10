@@ -18,4 +18,4 @@ async def on_message(message):
       print('Responded to their hello query')
 
 keep_alive()
-client.run('ODM5NzE3MTMxNDI3MjUwMTk2.YJNthQ.0UeYamqVWk7ZRfg1W8W53Uqdm2E')
+client.run('YOURTOKEN')
